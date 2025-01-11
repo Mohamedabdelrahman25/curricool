@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curricool Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1>Curricool</h1>
+        <nav>
+            <a href="#">Dashboard</a> | 
+            <a href="#">Students</a> | 
+            <a href="#">Courses</a> | 
+            <a href="#">Assignments</a> | 
+            <a href="#">Attendance</a> | 
+            <a href="#">Reports</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Academic Dashboard</h2>
+            <p><strong>Quick Statistics</strong></p>
+            <p>Announcements: 📢 End of semester evaluations starting next week!</p>
+        </section>
+
+        <section>
+            <h2>Student Management</h2>
+            <form>
+                <label>Name:</label>
+                <input type="text" placeholder="Enter student name">
+                <label>Grade:</label>
+                <select>
+                    <option>Select Grade</option>
+                    <option>Grade 10</option>
+                    <option>Grade 11</option>
+                    <option>Grade 12</option>
+                </select>
+            </form>
+            <h3>Enrolled Students</h3>
+            <table border="1">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Grade</th>
+                    <th>Major</th>
+                    <th>GPA</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td>001</td>
+                    <td>John Doe</td>
+                    <td>10</td>
+                    <td>Computer Science</td>
+                    <td>3.8</td>
+                    <td style="color: green;">Active</td>
+                    <td><a href="#">View</a> | <a href="#">Edit</a></td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Jane Smith</td>
+                    <td>11</td>
+                    <td>Biology</td>
+                    <td>4.0</td>
+                    <td style="color: green;">Active</td>
+                    <td><a href="#">View</a> | <a href="#">Edit</a></td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Course Catalog</h2>
+            <table border="1">
+                <tr>
+                    <th>Code</th>
+                    <th>Course Name</th>
+                    <th>Department</th>
+                    <th>Credits</th>
+                    <th>Prerequisites</th>
+                    <th>Capacity</th>
+                </tr>
+                <tr>
+                    <td>CS101</td>
+                    <td>Intro to Programming</td>
+                    <td>Computer Science</td>
+                    <td>3</td>
+                    <td>None</td>
+                    <td>
+                        <div style="background-color: lightgray; width: 100px; height: 10px; position: relative;">
+                            <div style="background-color: green; width: 80%; height: 100%;"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>BIO201</td>
+                    <td>Advanced Biology</td>
+                    <td>Biology</td>
+                    <td>4</td>
+                    <td>BIO101</td>
+                    <td>
+                        <div style="background-color: lightgray; width: 100px; height: 10px; position: relative;">
+                            <div style="background-color: green; width: 60%; height: 100%;"></div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Attendance Records</h2>
+            <table border="1">
+                <tr>
+                    <th>Student</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Attendance Rate</th>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>✔</td>
+                    <td>✔</td>
+                    <td>✖</td>
+                    <td>✔</td>
+                    <td>
+                        <div style="background-color: lightgray; width: 100px; height: 10px; position: relative;">
+                            <div style="background-color: blue; width: 90%; height: 100%;"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>✔</td>
+                    <td>✔</td>
+                    <td>✔</td>
+                    <td>✔</td>
+                    <td>
+                        <div style="background-color: lightgray; width: 100px; height: 10px; position: relative;">
+                            <div style="background-color: blue; width: 100%; height: 100%;"></div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#">Academic Calendar</a></li>
+                <li><a href="#">Learning Resources</a></li>
+                <li><a href="#">Help Center</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact Information</h2>
+            <p>Curricool Educational Institute</p>
+            <p>123 Learning Street, Education City</p>
+            <p>Email: <a href="mailto:info@curricool.com">info@curricool.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">123-456-7890</a></p>
+        </section>
+
+        <section>
+            <h2>Site Map</h2>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Accessibility</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024. All rights reserved.</p>
+    </footer>
+</body>
+</html>

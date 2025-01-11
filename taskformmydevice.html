@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curricool</title>
+    <style>
+        h1 {
+            font-size: 2em;
+            font-weight: bold;
+            color: black;
+            text-align: left;
+            margin-left: 20px;
+        }
+
+        .nav-links {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 10px;
+            margin-left: 20px;
+            font-size: 1em;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #0000ee;
+            margin: 5px 0;
+        }
+
+        table {
+            width: 60%;
+            margin: 10px auto;
+            border-collapse: collapse;
+            font-size: 0.9em;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        th {
+            background-color: #f0f0f0;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Curricool</h1>
+    <div class="nav-links">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#students">Students</a></li>
+            <li><a href="#progress">Progress Tracker</a></li>
+        </ul>
+    </div>
+
+    <h2 id="about">About Curricool</h2>
+    <p style="text-align: center;">Curricool is a website for listing students' curriculum and tracking their progress.</p>
+
+    <h2 id="students">Student List</h2>
+    <p style="text-align: center;">Current Students</p>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Grade</th>
+            <th>Major</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>John Doe</td>
+            <td>10</td>
+            <td>Computer Science</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Jane Smith</td>
+            <td>11</td>
+            <td>Biology</td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>Bob Johnson</td>
+            <td>9</td>
+            <td>Mathematics</td>
+        </tr>
+    </table>
+
+    <h2 id="progress">Progress Tracker</h2>
+    <p style="text-align: center;">Student Progress</p>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Math</th>
+            <th>Science</th>
+            <th>History</th>
+            <th>Language</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>John Doe</td>
+            <td><meter value="0.7" min="0" max="1" style="width: 100px;">70%</meter></td>
+            <td><meter value="0.9" min="0" max="1" style="width: 100px;">90%</meter></td>
+            <td><meter value="0.5" min="0" max="1" style="width: 100px;">50%</meter></td>
+            <td><meter value="0.4" min="0" max="1" style="width: 100px;">40%</meter></td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Jane Smith</td>
+            <td><meter value="0.8" min="0" max="1" style="width: 100px;">80%</meter></td>
+            <td><meter value="0.7" min="0" max="1" style="width: 100px;">70%</meter></td>
+            <td><meter value="1.0" min="0" max="1" style="width: 100px;">100%</meter></td>
+            <td><meter value="0.6" min="0" max="1" style="width: 100px;">60%</meter></td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>Bob Johnson</td>
+            <td><meter value="0.4" min="0" max="1" style="width: 100px;">40%</meter></td>
+            <td><meter value="0.5" min="0" max="1" style="width: 100px;">50%</meter></td>
+            <td><meter value="0.6" min="0" max="1" style="width: 100px;">60%</meter></td>
+            <td><meter value="0.9" min="0" max="1" style="width: 100px;">90%</meter></td>
+        </tr>
+    </table>
+
+    <footer>
+        <p>&copy; 2024 Curricool. All rights reserved.</p>
+        <p>Contact us at: <a href="mailto:info@curricool.com">info@curricool.com</a></p>
+    </footer>
+
+</body>
+</html>
